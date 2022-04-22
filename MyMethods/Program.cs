@@ -36,3 +36,25 @@ static void SortNumbersByAscending(int[] a)
     }
   
 }
+
+static void ExportOddNumbers(int[] a)
+{
+    foreach (var item in a)
+    {
+        if (item % 2 == 1)
+        {
+            Console.WriteLine(item);
+        }
+    }
+}
+
+static void ExportEvenNumbers(int[] a)
+{
+    foreach (var item in a)
+    {
+        if (item % 2 == 0)
+        {
+            Console.WriteLine(item);
+        }
+    }
+}
